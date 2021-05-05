@@ -5,13 +5,6 @@ import { User } from "./types/api/user";
 import { useState } from "react";
 import { UserProfile } from "./types/userProfile";
 
-const user = {
-  id: 1,
-  name: "hal",
-  email: "ttt",
-  address: "sasaa"
-};
-
 export default function App() {
   const [userProfiles, setUserProfiles] = useState<Array<UserProfile>>([]);
   const [loading, setLoading] = useState(false);
